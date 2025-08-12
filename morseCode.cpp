@@ -14,3 +14,9 @@ int main() {
         {'U', "..-"}, {'V', "...-"}, {'W', ".--"}, {'X', "-..-"},
         {'Y', "-.--"}, {'Z', "--.."}
     };
+    // Input variable to collect data from the user via the terminal window
+    string input;
+    cout << "Enter a message in English (A - Z charecters only) ";
+    getline(cin, input);
+    // Output variable to display the full morse code message
+    string output{};

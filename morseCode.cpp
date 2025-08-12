@@ -38,3 +38,11 @@ int main() {
                 cout << endl;  // Skip a line
             }
         }
+
+        cout << "Morse Code: " << output << endl;
+    }
+    // Prompt the user to press [Enter] in order to exit the program.
+    cout << "Press [Enter] to continue...";
+    cin.get();  // Wait for user to press the [Enter] key
+    return 0;  // Indicate zero errors or exceptions
+}
